@@ -1,6 +1,6 @@
 # video-engine
 
-video engine react component integrated into dash for realtime playback of csv data and video
+video engine react component integrated into dash for synced realtime playback of csv data and video
 
 # NOTE
 
@@ -8,8 +8,9 @@ This repository is missing node_modules due to inability to upload so many files
 
 # Note
 
-import video_engine into python
-code for video engine is located in /src
+In your pythong file import video-engine
+
+Raw code for engine is located in/src
 
 Any changes to /src should be saved and followed by:
 
