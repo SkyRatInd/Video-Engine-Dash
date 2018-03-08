@@ -1,0 +1,170 @@
+{
+  "src/components/ExampleComponent.react.js": {
+    "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
+    "displayName": "ExampleComponent",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this compnent in Dash callbacks"
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "A label that will be printed when this component is rendered."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value displayed in the input"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called whenever any of the\r\nproperties change"
+      }
+    }
+  },
+  "src/components/my_Player.react.js": {
+    "description": "",
+    "displayName": "my_Player",
+    "methods": [
+      {
+        "name": "myTimer",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "getCurrentTime",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "width of video player"
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "height of video player"
+      },
+      "url": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "src of video"
+      },
+      "playing": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "set true of false to start stop playing"
+      },
+      "playsInline": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "inline player"
+      },
+      "controls": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "SHow Controls?"
+      },
+      "playbackRate": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "set playback rate - useful! multiple of normal = 1"
+      },
+      "muted": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "muted or not"
+      },
+      "volume": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "preset volume set number"
+      },
+      "seekTo": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "seek time of video seconds"
+      },
+      "currTime": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "curentTime from video"
+      },
+      "getCurrentTime": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "curentTime from video"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called whenever any of the\r\nproperties change"
+      },
+      "dashEvents": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'change'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Dash-assigned callback that gets fired when the value changes."
+      }
+    }
+  }
+}

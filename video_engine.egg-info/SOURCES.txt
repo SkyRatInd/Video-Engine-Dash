@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+video_engine/__init__.py
+video_engine/bundle.js
+video_engine/metadata.json
+video_engine/version.py
+video_engine.egg-info/PKG-INFO
+video_engine.egg-info/SOURCES.txt
+video_engine.egg-info/dependency_links.txt
+video_engine.egg-info/top_level.txt
